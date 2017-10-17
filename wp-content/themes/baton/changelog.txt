@@ -1,0 +1,99 @@
+==========================================
+Theme: Baton
+Author: Slocum Themes/Slocum Design Studio
+Author URI: https://slocumthemes.com/
+Current Version: 1.1.2
+==========================================
+
+
+1.1.2 // April 5 2017
+---------------------
+- Added WooCommerce 3.0 gallery support
+
+1.1.1 // March 10 2017
+----------------------
+- Fixed a display bug where WooCommerce up-sells on single products were too small
+- Fixed a display bug where mc-gravity confirmation had a white background
+
+1.1.0 // March 01 2017
+----------------------
+- Added WooCommerce support
+- Added Freemius
+- Fixed a bug where a box shadow was added to WordPress editor content
+- Updated POT file
+
+1.0.8 // January 07 2017
+------------------------
+- Adjusted verbiage in Baton Conductor Customizer controls
+- Adjusted CSS to ensure the front page content wrapper element inherited the correct padding
+  when Yoast breadcrumbs were enabled
+- Added logic to output the Front Page Sidebar if Baton Conductor was enabled but enhanced
+  display was not enabled
+
+1.0.7 // December 30 2016
+-------------------------
+- Introduced Beaver Builder page template (hidden when Beaver Builder is inactive)
+- Removed ignore_sticky_posts query argument from Baton Conductor logic
+
+1.0.6 // June 27 2016
+---------------------
+- Fixed a bug where page content was output on the static front page when a widget was placed
+  in the Front Page Sidebar (Front Page Sidebar overrides normal static front page output)
+
+1.0.5 // June 22 2016
+---------------------
+- Updated SDS Core to version 1.5.1
+- Fixed display issue with Conductor Widgets in After Posts Sidebar
+- Fixed a display bug in IE10 on social icons
+- Adjusted color of FontAwesome icons in categories/tags display
+- Adjusted Gravity Forms CSS
+- Fixed a bug where custom post types displayed categories and tags
+- Introduced Baton Conductor Enhanced Display Customizer setting
+- Updated Baton Conductor logic
+- Removed demo content
+- Removed Front Page Sidebar from is_home() display
+- Adjusted pagination logic to use the_posts_pagination() instead of sds_post_navigation()
+- Adjusted logic to enqueue active theme stylesheet (use get_stylesheet_uri())
+- Adjusted tags
+- Removed One-Click Child Themes from TGM Plugin Activation
+- Updated POT file
+
+1.0.4 // May 09 2016
+--------------------
+- Introduced baton_categories_tags() to output categories and tags
+- Added CSS for icons within categories and tags output
+
+1.0.3 // May 02 2016
+--------------------
+- Updated SDS Core to version 1.5.0 (adds support for WordPress 4.5 logo uploader)
+- Added WordPress 4.5 custom-logo theme support
+- Fixed PHP notice for undefined "disabled" key in Baton Conductor logic
+- Updated POT file
+
+1.0.2 // April 26 2016
+----------------------
+- Added missing styles to color schemes
+- Added option to enable/disable demo content
+- Added logic to output static front page or blog roll below default widgets/Front
+  Page sidebar if Baton Conductor was disabled
+- Fixed PHP notice regarding hide_post_meta in SDS Theme Options
+- Fixed default values in Baton Conductor for featured image size and category selection
+- Added medium_large image dimensions to Baton Conductor
+- Fixed bug with Baton Conductor pagination output (use query max_num_pages for total)
+- Introduced baton_is_demo_content_enabled()
+- Introduced baton_is_baton_conductor_enabled()
+- Introduced baton_has_static_front_page()
+- Added regular versions of Font Awesome and Fitvids.js
+- Added attribution for SDS Core
+- Added various Gravity Forms styles
+- Updated screenshot
+- Updated POT file
+
+1.0.1 // December 24 2015
+-------------------------
+- Fixed multiple fatal PHP errors due to functions not existing at the time of execution
+- Updated to SDS Core Free 1.4.2
+
+1.0.0 // December 17 2015
+-------------------------
+- Initial Release
